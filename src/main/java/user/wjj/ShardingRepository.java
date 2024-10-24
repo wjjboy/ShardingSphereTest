@@ -30,9 +30,11 @@ import java.util.*;
 public class ShardingRepository {
 
     private static final String JDBC_DRIVER_NAME = "com.mysql.jdbc.Driver";
-    private static final String JDBC_URL = "jdbc:mysql://10.175.132.25:6306/%s?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false";
-    private static final String JDBC_USERNAME = "root";
-    private static final String JDBC_PASSWORD = "139ZXCV@qaz";
+    private static final String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/%s?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false";
+    // TODO: username
+    private static final String JDBC_USERNAME = "xxxx";
+    // TODO: password
+    private static final String JDBC_PASSWORD = "xxxx";
 
     /**
      * 库名
